@@ -46,7 +46,7 @@
                 <configuration>
                     <includes>
                         <include>
-                            org.example.TestSolver
+                            TestSolver
                         </include>
                     </includes>
                     <excludes>
