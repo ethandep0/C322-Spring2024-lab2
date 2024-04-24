@@ -6,6 +6,12 @@ on:
 
 jobs:
   build:
+    permissions:
+      contents: read
+      statuses: write
+      packages: write
+      actions: write
+      checks: write
 
     runs-on: ubuntu-latest
 
